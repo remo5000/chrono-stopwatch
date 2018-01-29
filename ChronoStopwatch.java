@@ -13,8 +13,8 @@ import android.widget.Chronometer;
  */
 
 public class ChronoStopwatch extends Chronometer {
-    long ChronoStopwatchTimeElapsedSincePause;
-    boolean ChronoStopwatchTimerIsRunning;
+    private long ChronoStopwatchTimeElapsedSincePause;
+    private boolean ChronoStopwatchTimerIsRunning;
 
     public ChronoStopwatch(Context context) {
         super(context, null, 0);
